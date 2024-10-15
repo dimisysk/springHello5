@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>current-date</title>
+    <link rel="stylesheet" th:href="@{/styles/main.css}">
+</head>
+<body>
+    <div th:replace="header :: navbar"></div>
+    <h1>Current Date</h1>
+<p><span th:text="${currentDate}"></span></p>
+</body>
+</html>
